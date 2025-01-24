@@ -8,7 +8,7 @@ api_key = st.secrets["openweather_api_key"]  # Store the API key in Streamlit Se
 st.title("Weather Information")
 
 # Input: User enters the city name
-city = st.text_input("Enter city name:", "London")
+city = st.text_input("Enter city name:", "Stockholm")
 
 # Function to get weather data
 def get_weather_data(city, api_key):
